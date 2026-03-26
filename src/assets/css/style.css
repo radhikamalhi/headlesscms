@@ -112,3 +112,14 @@ ul.category-list li a {
     text-decoration: none;
     font-weight: 600;
 }
+.content-left-side {
+    padding:35px;
+    
+}
+.about-box .post-row{
+background-color: #ffcd00;
+}
+.about-box .post-row:nth-child(even){
+    flex-direction: row-reverse;
+    margin-bottom: 15px;;
+}

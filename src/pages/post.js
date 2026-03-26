@@ -54,7 +54,7 @@ function Post() {
                 </div>
                 <div className='faq'>
                     {faq.map(item=>(
-                        <p><b>Pros: </b>{item.pros} <b>Cons: </b> {item.cons}</p>
+                        <p><b>Pros: </b>{item.pros} <b>Cons:</b> {item.cons}</p>
                         
                     ))}
                 </div>

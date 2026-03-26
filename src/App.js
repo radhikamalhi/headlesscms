@@ -7,6 +7,7 @@ import { Routes, Route } from "react-router-dom";
 import api from '../src/api/api'
 import Post from './pages/post';
 import Category from './pages/category';
+import Career from '../src/pages/career';
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
         <Route path="/blog" element={<About/>} />
         <Route path="/post/:id" element={<Post/>} />
          <Route path="/category/:categoryId" element={<Category/>} />
+         <Route path="/career" element={<Career/>} />
       </Routes>
 
       <Footer/>

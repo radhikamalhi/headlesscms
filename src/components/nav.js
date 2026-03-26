@@ -12,6 +12,7 @@ function Nav() {
                          <nav className='nav-menu'>
                         <Link to='/'>Home</Link>
                         <Link to='/blog'>Blog</Link>
+                        <Link to='/career'>Career</Link>
                     </nav>
                         <Button text={'Contact Us'}/>
                     </div>
