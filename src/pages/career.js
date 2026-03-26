@@ -62,7 +62,7 @@ function Career() {
             <div className='image-side'>
               {/* If image is object with url, use it, else if number (ID) fetch */}
               {typeof item.image === "object" && item.image?.url ? (
-                <img src={item.image.url} alt={item.heading} className='w-100' />
+                <img src={item.image.url} alt={item.heading} className='w-100 img' />
               ) : typeof item.image === "number" ? (
                 <ImageFromID id={item.image} alt={item.heading} />
               ) : (
